@@ -1,0 +1,23 @@
+.menubar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  left: 0px;
+  display: flex;
+  height: 50px;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+
+  background-color: white;
+}
+
+.menubar #logo {
+  width: 180px;
+  height: 16px;
+  background-image: url(../images/logo.svg);
+  background-size: cover;
+
+
+}
