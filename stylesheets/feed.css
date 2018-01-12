@@ -2,22 +2,72 @@
   background-color: #FAFAFA;
 }
 .feed.bg {
-  background-image: url(../images/posts_mockup.png);
-  background-size: 1440px 1507px;
-  background-position: center -10px;
-  background-repeat: no-repeat;
+   background-image: url(../images/posts_mockup.png);
+   background-size: 1440px 1507px;
+   background-position: center -10px;
+   background-repeat: no-repeat;
 
 }
 
 .postsFeed {
+  box-sizing: content-box;
+}
+.postsFeed {
   padding-top: 90px;
+  padding-left: 344px;
 
 }
 
-  .postsFeed .postsCard {
-    display: block;
-    border: 1px solid rgba(0,0,0,0.1);
-    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.05);
+.postsFeed .postsCard {
+    font-size: 25px;
+    color: rgba(0,0,0,.4);
+    margin: 7px 0 10px;
+    line-height: 39px;
     background-color: #ffffff;
 
 }
+
+.postsFeed h2, .postsFeed p {
+  font-family: 'PT Sans Caption', sans-serif;
+  max-width: 663px;
+  margin: 20px;
+}
+
+.postsCard h2{
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(0,0,0,.8);
+  font-family: 'PT Sans Caption', sans-serif;
+  line-height: 33px;
+}
+
+.postsCard p{
+  font-size: 19px;
+  color: rgba(0,0,0,.4);
+  line-height: 25px;
+  margin-top: 10px;
+}
+
+
+
+.postsCard img {
+  padding-top: 21px;
+  /* margin-top: 20px; */
+  margin-left: 20px;
+  width: 700px;
+  height: 225px;
+
+}
+
+
+
+/* .postsCard img + h2 { */
+  /* margin-top: 23px; */
+}
+/* .postsFeed figure {
+    margin-bottom: 31px;
+    width: 820px;
+    height: 234px;
+    background-size: cover;
+    background-position: center;
+} */
