@@ -1,11 +1,11 @@
 .feed{
   background-color: #FAFAFA;
 }
-.feed.bg {
+/* .feed.bg {
    background-image: url(../images/posts_mockup.png);
    background-size: 1440px 1507px;
    background-position: center -10px;
-   background-repeat: no-repeat;
+   background-repeat: no-repeat; */
 
 }
 
@@ -51,23 +51,22 @@
 
 
 .postsCard img {
-  padding-top: 21px;
-  /* margin-top: 20px; */
+  margin-top: 20px;
   margin-left: 20px;
   width: 700px;
-  height: 225px;
-
+  height: 195px;
+  padding-top: 21px;
 }
 
 
 
-/* .postsCard img + h2 { */
-  /* margin-top: 23px; */
+.postsCard img + h2 {
+  margin-top: 23px;
 }
-/* .postsFeed figure {
+.postsFeed figure {
     margin-bottom: 31px;
     width: 820px;
     height: 234px;
     background-size: cover;
     background-position: center;
-} */
+}
