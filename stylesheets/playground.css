@@ -1,0 +1,68 @@
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 20px 0;
+  overflow: hidden;
+  /* transition: all 1s ease .2s; */
+  transition-property: all;
+  transition-duration: .5s;
+  transition-delay: 0.2s;
+  cursor: pointer;
+
+}
+
+#a {
+  background-color: lightblue;
+  transition-timing-function: linear;}
+#a:hover {
+  transform: translate(50px, 20px);
+}
+
+#b {
+  background-color: red;
+  transition-timing-function: ease;}
+
+#b:hover {
+  transform: scale(1.5, 1.5);
+}
+
+#c {
+  background-color: yellow;
+  transition-timing-function: ease-in;}
+
+#c:hover {
+  transform: rotate3d(1.2, 1.3, 1.4, 100deg);
+}
+
+#d {
+  background-color: blue;
+  transition-timing-function: ease-out;}
+
+#d:hover {
+  transform: skewX(-25deg);
+}
+
+
+#e {
+  background-color: pink;
+  transition-timing-function: ease-in-out;}
+
+.square:hover{
+  /* width: 100%;
+  height: 200px; */
+
+  background-color: lightgreen !important;
+}
+
+.square h1 {
+  margin: 0;
+  font-size: 40px;
+  line-height: 100px;
+  transition: all 1s 1s;
+}
+
+/* .square:hover h1 {
+  font-size: 28px;
+  line-height: 80px;
+} */
